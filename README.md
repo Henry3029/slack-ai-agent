@@ -4,7 +4,7 @@ An intelligent, autonomous Web3 workspace assistant built for the Slack Agent Bu
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 The agent handles requests asynchronously through an agentic loop divided into four distinct phases:
 
@@ -25,7 +25,7 @@ The agent handles requests asynchronously through an agentic loop divided into f
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##️ Tech Stack & Architecture
 
 * **Framework:** Next.js (App Router / Client-Server Hybrid Architecture)
 * **Slack Integration:** `@slack/bolt` (Slack Events API, Webhooks, and Block Kit interactive UI)
@@ -36,7 +36,7 @@ The agent handles requests asynchronously through an agentic loop divided into f
 
 ---
 
-## 📦 Installation & Setup
+## � Installation & Setup
 
 Follow these steps to spin up the agent workspace inside your environment (e.g., GitHub Codespaces):
 
@@ -85,7 +85,7 @@ npm run dev
 
 ---
 
-## 📈 Design System (Mobile-First Philosophy)
+## Design System (Mobile-First Philosophy)
 
 The interactive blocks returned to the Slack interface utilize a responsive, card-based structural design pattern. Whether accessed via Slack's desktop application or through a mobile interface, components automatically stack linearly to prioritize instant visibility of high-value actions:
 
