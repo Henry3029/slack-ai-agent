@@ -1,7 +1,7 @@
 import express from 'express';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 // This middleware is REQUIRED so Express can read the JSON payload shown in your screenshot
 app.use(express.json());
